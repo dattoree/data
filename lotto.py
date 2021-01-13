@@ -4,7 +4,7 @@ from keras.models import Sequential
 from keras.layers.core import Dense
 from keras.layers.recurrent import LSTM
 
-path = 'data/lotto.csv'
+path = 'lotto.csv'
 COLS = [0, 1, 2, 3, 4, 5, 6]
 
 # load the dataset
